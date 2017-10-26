@@ -1,0 +1,35 @@
+*{
+  box-sizing: border-box;
+}
+footer
+  .social ul {
+    /*fjerner styling på listen*/
+    list-style-type: none;
+    }
+
+  .social li{
+    /*sørger for at indholdet står på en horizontal linje*/
+    display: inline;
+    }
+
+footer .social {
+  /* centrerer social media ikonerne*/
+  padding: 0;
+  text-align: center;
+}
+
+  .social img{
+    /*kontrolerer størrelsen på social media ikonerne*/
+    width: 15vw;
+    margin:0;
+    padding: 0;
+    }
+
+    footer p {
+      text-align: center;
+    }
+
+iframe{
+  /* sørger for at iframe/Google maps følger skærmens størrelse*/
+    max-width: 100%;
+  }
